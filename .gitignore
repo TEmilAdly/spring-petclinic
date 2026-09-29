@@ -46,3 +46,22 @@ out/
 _site/
 *.css
 !petclinic.css
+
+# Local delivery configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Local analysis and runtime output
+.scannerwork/
+*.log
+logs/
+*.pid
